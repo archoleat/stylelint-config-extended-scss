@@ -6,8 +6,8 @@ import typescript from '@rollup/plugin-typescript';
 
 export default defineConfig([
   {
-    plugins: [typescript({ outputToFilesystem: true }), minify()],
-    input: 'src/index.ts',
+    plugins: [typescript(), minify()],
+    input: 'src/app/index.ts',
     output: {
       file: 'index.js',
       format: 'es',
