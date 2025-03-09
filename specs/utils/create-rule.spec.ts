@@ -3,10 +3,10 @@ import { beforeEach, describe, expect, test as spec } from 'bun:test';
 import { createRule } from '#utils/create-rule/create-rule.ts';
 import type { Parameters } from '#create-rule-parameters';
 
-describe('Create Rule', async () => {
+describe('Create Rule', () => {
   let rule: Function;
 
-  beforeEach(async () => {
+  beforeEach(() => {
     rule = async (parameters: Parameters) => {
       const { selector } = parameters;
 

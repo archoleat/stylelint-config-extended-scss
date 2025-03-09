@@ -3,10 +3,10 @@ import { beforeEach, describe, expect, test as spec } from 'bun:test';
 import { createAtRule } from '#utils/create-at-rule/create-at-rule.ts';
 import type { Parameters } from '#create-at-rule-parameters';
 
-describe('Create At Rule', async () => {
+describe('Create At Rule', () => {
   let atRule: Function;
 
-  beforeEach(async () => {
+  beforeEach(() => {
     atRule = async (parameters: Parameters) => {
       const { name, hasBlock } = parameters;
 
