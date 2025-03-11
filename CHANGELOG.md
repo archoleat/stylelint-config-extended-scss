@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.11.1](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.0...v1.11.1) (2025-03-11)
+
+### Bug Fixes
+
+* formatting ([6dba05b](https://github.com/archoleat/stylelint-config-extended-scss/commit/6dba05ba34149de5b76b07e750f3c7ed9a04944a))
+* formatting ([0be0f28](https://github.com/archoleat/stylelint-config-extended-scss/commit/0be0f28321ee429b721e6594fd24f8662ddab6dd))
+
+### Code Refactoring
+
+* order ([#334](https://github.com/archoleat/stylelint-config-extended-scss/issues/334)) ([b39e960](https://github.com/archoleat/stylelint-config-extended-scss/commit/b39e960d12251614ffba511f2039ab3323f8702e))
+* order.ts ([31745c4](https://github.com/archoleat/stylelint-config-extended-scss/commit/31745c4d1f0d5fc352f2233ed899036335f605e5))
+
 ## [1.11.0](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.10.12...v1.11.0) (2025-01-15)
 
 ### Features
