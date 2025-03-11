@@ -260,11 +260,11 @@ const propertiesOrder = {
   'order/properties-order': [
     [
       ...common,
+      ...content,
       ...interaction,
       ...positioning,
       ...boxModel,
       ...layout,
-      ...content,
       ...appearance,
       ...typography,
       ...image,

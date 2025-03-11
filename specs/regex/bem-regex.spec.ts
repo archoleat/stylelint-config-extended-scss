@@ -33,7 +33,7 @@ describe('BEM Class Regex', () => {
   });
 
   describe('Invalid BEM classes', () => {
-    validClasses.forEach((className) => {
+    invalidClasses.forEach((className) => {
       spec(`should reject "${className}"`, () => {
         expect(className).not.toMatch(BEMClassRegex);
       });
