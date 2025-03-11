@@ -19,14 +19,9 @@ const validClasses = [
   'block-name__element-name--modifier-name',
   'block-name__element-name--modifier',
   'block-name__element--modifier-name',
-  'block__element-name--modifier-name'
+  'block__element-name--modifier-name',
 ];
-const invalidClasses = [
-  'block__element_modifier',
-  'Block',
-  'BlockElement',
-  '123'
-];
+const invalidClasses = ['block__element_modifier', 'Block', 'BlockElement', '123'];
 
 describe('BEM Class Regex', () => {
   describe('Valid BEM classes', () => {
