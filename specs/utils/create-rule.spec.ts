@@ -12,7 +12,7 @@ describe('Create Rule', () => {
 
       const result = await createRule({ selector });
 
-      // expect(result.selector).toEqual(`&${selector.replace(/^&+/g, '')}`);
+      expect(result.selector).toEqual(`&${selector}`);
       expect(result.type).toEqual('rule');
 
       return result;
