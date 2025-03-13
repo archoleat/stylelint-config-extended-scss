@@ -17,6 +17,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+Extended shareable config for Stylelint with property sorting.
+
 ## Installation
 
 ```shell
