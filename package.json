@@ -111,6 +111,6 @@
     "remark-preset-lint-recommended": "^7.0.1",
     "rollup": "^4.38.0",
     "rollup-plugin-esbuild": "^6.2.1",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.6"
   }
 }
