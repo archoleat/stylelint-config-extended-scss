@@ -12,6 +12,7 @@
     "layout.ts",
     "positioning.ts",
     "README.md",
+    "semantic-pull-request-title.yaml",
     "svg.ts",
     "transitions.ts",
     "typography.ts"
