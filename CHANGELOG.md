@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.11.2](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.1...v1.11.2) (2025-08-17)
+
+### Bug Fixes
+
+* tslib ([#370](https://github.com/archoleat/stylelint-config-extended-scss/issues/370)) ([0568f96](https://github.com/archoleat/stylelint-config-extended-scss/commit/0568f96a366072e2d02c33f4ec2022e244cff52d))
+
+### Code Refactoring
+
+* .editorconfig-checker.json ([9f6f102](https://github.com/archoleat/stylelint-config-extended-scss/commit/9f6f102bab4e16cc8baaf70d49397fecb7fbd678))
+* actions ([#369](https://github.com/archoleat/stylelint-config-extended-scss/issues/369)) ([6cbcb0d](https://github.com/archoleat/stylelint-config-extended-scss/commit/6cbcb0d1aa42f5108cc555341870772920630397))
+* dependabot ([#362](https://github.com/archoleat/stylelint-config-extended-scss/issues/362)) ([16095d0](https://github.com/archoleat/stylelint-config-extended-scss/commit/16095d0c61eb7c01169f9b1816f4e5d0995cd1af))
+* remove comments ([8891e4e](https://github.com/archoleat/stylelint-config-extended-scss/commit/8891e4e699cbce3a2da12924108b2eea1fcb9e59))
+
 ## [1.11.1](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.0...v1.11.1) (2025-03-11)
 
 ### Bug Fixes
