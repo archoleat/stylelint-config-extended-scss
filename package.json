@@ -46,6 +46,7 @@
     "#data/*": "./src/data/*",
     "#properties/*": "./src/config/properties/*",
     "#rules/*": "./src/config/rules/*",
+    "#src/*": "./src/*",
     "#utils/*": "./src/utils/*"
   },
   "exports": {
