@@ -1,0 +1,20 @@
+{
+  "exclude": [
+    "appearance.ts",
+    "box-model.ts",
+    "CHANGELOG.md",
+    "common.ts",
+    "config.yml",
+    "content.ts",
+    "create-properties-group.spec.ts",
+    "image.ts",
+    "interaction.ts",
+    "layout.ts",
+    "positioning.ts",
+    "README.md",
+    "semantic-pull-request-title.yaml",
+    "svg.ts",
+    "transitions.ts",
+    "typography.ts"
+  ]
+}
