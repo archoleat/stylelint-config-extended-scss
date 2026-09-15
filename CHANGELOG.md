@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.5](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.4...v1.11.5) (2026-09-15)
+
+### Bug Fixes
+
+* **ci:** declare TypeScript and use client-id ([64cb471](https://github.com/archoleat/stylelint-config-extended-scss/commit/64cb4712afc1c514c438814f566476e112a18752))
+* **release:** use compatible changelog preset ([1e3dd25](https://github.com/archoleat/stylelint-config-extended-scss/commit/1e3dd253550cfa4a7c4eb2a4c8551b32d976a7d9))
+
 ## [1.11.4](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.3...v1.11.4) (2026-07-01)
 
 ### Bug Fixes
