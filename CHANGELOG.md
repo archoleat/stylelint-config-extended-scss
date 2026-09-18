@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.6](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.5...v1.11.6) (2026-09-18)
+
+### Bug Fixes
+
+* remove unused type in create rule ([0734e36](https://github.com/archoleat/stylelint-config-extended-scss/commit/0734e36f032b75ea3cae8de7605c707c5821d463))
+
 ## [1.11.5](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.4...v1.11.5) (2026-09-15)
 
 ### Bug Fixes
