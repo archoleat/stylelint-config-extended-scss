@@ -25,6 +25,9 @@ Extended shareable config for Stylelint with property sorting.
 bun i -D @archoleat/stylelint-config-extended-scss stylelint-define-config
 ```
 
+Requires Stylelint 17.14.0 or later within version 17.
+Stylelint 15 and 16 are not supported by the current dependencies.
+
 ## Usage
 
 Add the following code to the `stylelint.config.ts` or `stylelint.config.js`

@@ -46,7 +46,7 @@
     "init": "bun i && husky"
   },
   "peerDependencies": {
-    "stylelint": "^15.0.0 || ^16.0.0 || ^17.0.0"
+    "stylelint": "^17.14.0"
   },
   "dependencies": {
     "@archoleat/reglib": "^1.10.1",
