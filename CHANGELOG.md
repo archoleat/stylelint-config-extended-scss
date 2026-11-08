@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.7](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.6...v1.11.7) (2026-11-08)
+
+### Bug Fixes
+
+* align supported Stylelint versions with dependencies ([f424f28](https://github.com/archoleat/stylelint-config-extended-scss/commit/f424f281c24ecc84c53546b586056b3b6c78ea5b))
+* use stable Node.js for releases ([63d4126](https://github.com/archoleat/stylelint-config-extended-scss/commit/63d4126781b18a86378a1b195938bfcd4fb2c0e1))
+
 ## [1.11.6](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.5...v1.11.6) (2026-09-18)
 
 ### Bug Fixes
