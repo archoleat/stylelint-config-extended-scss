@@ -1,6 +1,6 @@
 {
   "name": "@archoleat/stylelint-config-extended-scss",
-  "description": "Extended config for Stylelint with property sorting",
+  "description": "SCSS config for Stylelint with BEM and property sorting",
   "version": "1.11.8",
   "license": "MIT",
   "author": {
@@ -23,9 +23,6 @@
     "stylelint",
     "typescript"
   ],
-  "engines": {
-    "bun": ">=1.0.0"
-  },
   "type": "module",
   "imports": {
     "#config/*": "./src/config/*",

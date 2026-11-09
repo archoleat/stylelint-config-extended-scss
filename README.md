@@ -12,7 +12,9 @@
 ## Table of Contents
 
 - [Installation](#installation)
+- [Runtime](#runtime)
 - [Usage](#usage)
+- [Policy and Overrides](#policy-and-overrides)
 - [This Config](#this-config)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,6 +30,12 @@ bun i -D @archoleat/stylelint-config-extended-scss stylelint-define-config
 Requires Stylelint 17.14.0 or later within version 17.
 Stylelint 15 and 16 are not supported by the current dependencies.
 
+## Runtime
+
+This is an ES module loaded by Stylelint in Node.js. Follow the Node.js
+requirements of the installed Stylelint and plugins. Bun is used for
+repository tooling, not required to load the published configuration.
+
 ## Usage
 
 Add the following code to the `stylelint.config.ts` or `stylelint.config.js`
@@ -40,6 +48,34 @@ export default defineConfig({
   extends: '@archoleat/stylelint-config-extended-scss',
 });
 ```
+
+## Policy and Overrides
+
+This is an opinionated team policy. BEM class names, logical properties, rem
+units, nesting limits, and the `!important` restriction are defaults, not
+universal requirements for every project. Keep the rules that match your
+codebase and override individual rules in the consuming configuration:
+
+```js
+export default {
+  extends: '@archoleat/stylelint-config-extended-scss',
+  rules: {
+    'declaration-no-important': null,
+    'selector-class-pattern': null,
+    'rem-over-px/rem-over-px': null,
+  },
+};
+```
+
+Prefer a local, explained disable comment for a one-off exception. A project
+that uses CSS Modules or utility classes may need a different naming rule.
+
+The configuration loads Prettier and several plugins. This adds installation
+and lint time compared with the base SCSS config; rule checks are not a
+measurement of the application's runtime performance. Measure cold and warm
+Stylelint runs on representative files before adopting it as a required
+team check. Compare against `stylelint-config-standard-scss` on the same
+files and environment; timings are specific to that workload.
 
 ## This Config
 
@@ -67,7 +103,7 @@ export default defineConfig({
   as they have same set of properties and values.
 
 - [`stylelint-high-performance-animation`](https://github.com/kristerkari/stylelint-high-performance-animation):
-  Enhances your animations.
+  Flags animation properties that may cause layout or paint work.
 
 - [`stylelint-order`](https://github.com/hudochenkov/stylelint-order):
   Sorts **over 400 properties** for enhanced clarity and maintainability.
