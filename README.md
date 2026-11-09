@@ -216,7 +216,7 @@ This is a list of the lints turned on in this configuration.
 
 ##### Dollar Variable
 
-- [`scss/dollar-variable-empty-line-after`](https://github.com/stylelint-scss/stylelint-scss/tree/master/src/rules/scss/dollar-variable-empty-line-after):
+- [`scss/dollar-variable-empty-line-after`](https://github.com/stylelint-scss/stylelint-scss/tree/master/src/rules/dollar-variable-empty-line-after):
   Rule enabled.
 
   > Expect: `last-nested`, `before-comment`, `before-dollar-variable`.
