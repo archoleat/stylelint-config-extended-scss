@@ -1,6 +1,6 @@
 import { BLOCK_REGEX, ELEMENT_REGEX, MODIFIER_REGEX } from '@archoleat/reglib';
 
-import { messages } from '#data/messages.ts';
+import { messages } from '#data/messages.js';
 
 const CSSRules = {
   'at-rule-disallowed-list': ['debug'],

@@ -17,8 +17,8 @@ import {
   SIBLING_REGEX,
 } from '@archoleat/reglib';
 
-import { createAtRule } from '#utils/create-at-rule/create-at-rule.ts';
-import { createRule } from '#utils/create-rule/create-rule.ts';
+import { createAtRule } from '#utils/create-at-rule/create-at-rule.js';
+import { createRule } from '#utils/create-rule/create-rule.js';
 
 import { experimental } from './experimental.ts';
 import { appearance } from './groups/appearance.ts';

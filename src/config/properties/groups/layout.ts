@@ -1,4 +1,4 @@
-import { createPropertiesGroup } from '#utils/create-properties-group/create-properties-group.ts';
+import { createPropertiesGroup } from '#utils/create-properties-group/create-properties-group.js';
 
 import { limitedAvailability } from '../limited-availability.ts';
 

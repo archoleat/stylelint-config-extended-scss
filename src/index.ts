@@ -1,7 +1,7 @@
-import { plugins } from '#config/plugins.ts';
-import { propertiesOrder } from '#properties/order.ts';
-import { CSSRules } from '#rules/css.ts';
-import { SCSSRules } from '#rules/scss.ts';
+import { plugins } from '#config/plugins.js';
+import { propertiesOrder } from '#properties/order.js';
+import { CSSRules } from '#rules/css.js';
+import { SCSSRules } from '#rules/scss.js';
 
 export default {
   extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
