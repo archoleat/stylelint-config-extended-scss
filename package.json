@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/stylelint-config-extended-scss",
   "description": "Shareable Stylelint configuration for SCSS with BEM naming and property ordering.",
-  "version": "1.11.10",
+  "version": "1.11.11",
   "license": "MIT",
   "author": {
     "email": "nikkeyl.me@gmail.com",

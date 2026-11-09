@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.11](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.10...v1.11.11) (2026-11-09)
+
+### Bug Fixes
+
+* align package description with repository metadata ([bb1990b](https://github.com/archoleat/stylelint-config-extended-scss/commit/bb1990b100f57be5734edabe3834addf7d1dfe8d))
+
 ## [1.11.10](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.9...v1.11.10) (2026-11-09)
 
 ### Bug Fixes
