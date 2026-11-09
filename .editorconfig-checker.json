@@ -16,6 +16,7 @@
     "semantic-pull-request-title.yaml",
     "svg.ts",
     "transitions.ts",
-    "typography.ts"
+    "typography.ts",
+    "patches/"
   ]
 }
