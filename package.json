@@ -18,10 +18,11 @@
   },
   "keywords": [
     "archoleat",
+    "bem",
+    "linting",
     "scss",
-    "stylelint-config-standard-scss",
     "stylelint",
-    "typescript"
+    "stylelint-config"
   ],
   "type": "module",
   "imports": {
