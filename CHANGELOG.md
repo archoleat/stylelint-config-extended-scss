@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.8](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.7...v1.11.8) (2026-11-09)
+
+### Bug Fixes
+
+* align plugin rules with supported versions ([9ce5aee](https://github.com/archoleat/stylelint-config-extended-scss/commit/9ce5aee174abac728cab26f44e118188603847ec))
+
 ## [1.11.7](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.6...v1.11.7) (2026-11-08)
 
 ### Bug Fixes
