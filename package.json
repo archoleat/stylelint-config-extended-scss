@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/stylelint-config-extended-scss",
   "description": "SCSS config for Stylelint with BEM and property sorting",
-  "version": "1.11.8",
+  "version": "1.11.9",
   "license": "MIT",
   "author": {
     "email": "nikkeyl.me@gmail.com",

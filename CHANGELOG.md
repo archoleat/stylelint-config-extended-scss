@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.9](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.8...v1.11.9) (2026-11-09)
+
+### Documentation
+
+* explain SCSS policy and overrides ([2d6d435](https://github.com/archoleat/stylelint-config-extended-scss/commit/2d6d4356e91c3f1d245722e691c4461e899d1181))
+
 ## [1.11.8](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.7...v1.11.8) (2026-11-09)
 
 ### Bug Fixes
