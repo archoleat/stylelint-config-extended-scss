@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.10](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.9...v1.11.10) (2026-11-09)
+
+### Bug Fixes
+
+* align npm keywords with repository topics ([82419f7](https://github.com/archoleat/stylelint-config-extended-scss/commit/82419f79081f6f873ebdd9f8c4ba05a3562111a7))
+
 ## [1.11.9](https://github.com/archoleat/stylelint-config-extended-scss/compare/v1.11.8...v1.11.9) (2026-11-09)
 
 ### Documentation
